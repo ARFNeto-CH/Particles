@@ -33,16 +33,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="maskTest.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Particle.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Screen.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Swarm.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
