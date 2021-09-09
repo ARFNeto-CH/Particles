@@ -1,13 +1,13 @@
 #pragma once
 #include <iostream>
-#include "SDL.h"
+#include "SDL2/SDL.h"
 
 namespace particles
 {
 	class Screen
 	{
 	public:
-		int SCREEN_WIDTH;
+		int W;
 		int SCREEN_HEIGHT;
 		int SCREEN_HALF_WIDTH;
 		int SCREEN_HALF_HEIGHT;
@@ -20,7 +20,7 @@ namespace particles
 		SDL_version		SDL_compile_version;
 		SDL_version		SDL_dll_version;
 
-		SDL_Window* m_window;
+		SDL_Window* Window;
 		SDL_Renderer* m_renderer;
 		SDL_Texture* m_texture;
 		Uint32* m_buffer1;

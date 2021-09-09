@@ -7,7 +7,7 @@
 
 #include "maskTest.h"
 #include "Screen.h"
-#include "SDL.h"
+#include "SDL2/SDL.h"
 #include "swarm.h"
 #include "MaskTest.h"
 #include "math.h"

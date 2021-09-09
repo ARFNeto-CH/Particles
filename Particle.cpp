@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include "Particle.h"
-#include "SDL.h"
+#include "SDL2/SDL.h"
 
 #define M_PI 3.14159265358979323846264338327950288
 

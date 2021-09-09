@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <iomanip>
-#include "SDL.h"
+#include "SDL2/SDL.h"
 
 using namespace std;
 class MaskTest
